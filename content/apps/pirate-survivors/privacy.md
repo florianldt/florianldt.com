@@ -20,7 +20,7 @@ You can delete all of this data at any time by deleting the app.
 
 ## Support and feedback
 
-If you contact support by email, the developer receives your email address and whatever you choose to include, and uses it only to reply and investigate the issue. Please don't include personal information that isn't needed.
+If you contact the developer on X (Twitter), the developer receives your username and whatever you choose to include, and uses it only to reply and investigate the issue. Your message is also handled by X under [its own privacy policy](https://x.com/privacy). Please don't include personal information that isn't needed.
 
 If you test a beta through TestFlight, Apple may collect diagnostics, crash reports and feedback under its own terms. Information that Apple shares with the developer is used only to fix bugs and improve the game. See [Apple's privacy policy](https://www.apple.com/legal/privacy/).
 
@@ -34,4 +34,4 @@ If the game's data practices change, this page will be updated and the date abov
 
 ## Contact
 
-Questions about this policy: [florian.ludot@gmail.com](mailto:florian.ludot@gmail.com).
+Questions about this policy: [@florianldt on X (Twitter)](https://x.com/florianldt).

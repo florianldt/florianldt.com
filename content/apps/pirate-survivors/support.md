@@ -2,7 +2,7 @@
 title: Support
 ---
 
-Need help with **Pirate Survivors: Cursed Seas**? Email [florian.ludot@gmail.com](mailto:florian.ludot@gmail.com).
+Need help with **Pirate Survivors: Cursed Seas**? Send a message to [@florianldt on X (Twitter)](https://x.com/florianldt).
 
 To help track down an issue, please include your device model, iOS or iPadOS version, the game version, and what happened. Steps to reproduce it and a screenshot are a big help.
 
