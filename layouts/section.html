@@ -4,8 +4,9 @@
     <ul class="app-list">
       {{ range .Sections.ByWeight }}
         <li>
-          <a href="{{ .RelPermalink }}">
-            {{ with .Resources.Get "icon.png" }}<img src="{{ .RelPermalink }}" width="64" height="64" alt="">{{ end }}
+          {{- /* Entries with params.url link out to their own site. */}}
+          <a href="{{ .Params.url | default .RelPermalink }}"{{ with .Params.url }} target="_blank" rel="noopener"{{ end }}>
+            {{ with .Resources.GetMatch "icon.*" }}<img src="{{ .RelPermalink }}" width="64" height="64" alt="">{{ end }}
             <span>
               <strong>{{ .Title }}</strong>
               {{ with .Description }}<small>{{ . }}</small>{{ end }}
