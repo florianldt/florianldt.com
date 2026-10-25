@@ -1,0 +1,21 @@
+{{- /* Pages inside an app bundle (privacy policy, support), styled with that app's theme. */ -}}
+{{ define "title" }}{{ .Title }} · {{ .CurrentSection.Title }}{{ end }}
+
+{{ define "head" }}{{ partial "app-theme.html" .CurrentSection }}{{ end }}
+
+{{ define "main" }}
+  {{ $app := .CurrentSection }}
+  <div class="app">
+    <header class="app-bar">
+      <a href="{{ $app.RelPermalink }}">
+        {{ with $app.Resources.Get "icon.png" }}<img src="{{ .RelPermalink }}" width="40" height="40" alt="">{{ end }}
+        <span>{{ $app.Title }}</span>
+      </a>
+    </header>
+    <main class="app-doc">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </main>
+    {{ partial "app-footer.html" $app }}
+  </div>
+{{ end }}

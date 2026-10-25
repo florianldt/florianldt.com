@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <main class="page">
+    <h1>{{ .Title }}</h1>
+    <ul class="app-list">
+      {{ range .Sections.ByWeight }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            {{ with .Resources.Get "icon.png" }}<img src="{{ .RelPermalink }}" width="64" height="64" alt="">{{ end }}
+            <span>
+              <strong>{{ .Title }}</strong>
+              {{ with .Description }}<small>{{ . }}</small>{{ end }}
+            </span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}
