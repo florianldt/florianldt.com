@@ -1,0 +1,14 @@
+{{ define "title" }}{{ site.Title }}{{ end }}
+
+{{ define "main" }}
+  <main class="home">
+    <img src="{{ "images/memoji.png" | relURL }}" width="160" height="160" alt="{{ site.Params.name }}">
+    <h1>{{ site.Params.name }}</h1>
+    <h3>{{ site.Params.role }}</h3>
+    <ul>
+      {{ range site.Params.links }}
+        <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a></li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}

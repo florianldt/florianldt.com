@@ -1,54 +1,24 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# florianldt.com
 
-## 🚀 Quick start
+Personal website and app privacy policies, built with [Hugo](https://gohugo.io).
 
-1.  **Create a Gatsby site.**
+## Development
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+```shell
+brew install hugo
+hugo server
+```
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+The site is then available at http://localhost:1313.
 
-2.  **Start developing.**
+## Structure
 
-    Navigate into your new site’s directory and start it up.
+- `hugo.toml` — site config, including the links shown on the home page
+- `content/privacy/` — one Markdown file per app privacy policy (served at `/privacy/<name>/`)
+- `layouts/` — page templates
+- `assets/css/main.css` — styles
+- `static/` — files copied as-is (images, favicon, `CNAME`)
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Deployment
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+Every push to `master` builds the site and publishes it to the `gh-pages` branch via GitHub Actions (`.github/workflows/deploy.yml`).

@@ -1,0 +1,12 @@
+{{ define "title" }}Not found{{ end }}
+
+{{ define "main" }}
+  <main class="not-found">
+    <h1>Page not found</h1>
+    <p>
+      Sorry 😔, we couldn’t find what you were looking for.
+      <br><br>
+      <a href="{{ "/" | relURL }}">Go home</a>.
+    </p>
+  </main>
+{{ end }}
