@@ -4,7 +4,6 @@
   <main class="home">
     <img src="{{ "images/memoji.png" | relURL }}" width="160" height="160" alt="{{ site.Params.name }}">
     <h1>{{ site.Params.name }}</h1>
-    <h3>{{ site.Params.role }}</h3>
     <ul>
       <li><a href="{{ "apps/" | relURL }}">Apps</a></li>
       {{ range site.Params.links }}

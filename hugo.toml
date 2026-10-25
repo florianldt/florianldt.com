@@ -9,24 +9,11 @@ unsafe = false
 
 [params]
 name = 'Florian Ludot'
-role = 'Co-Founder & CTO'
 
 [[params.links]]
-text = 'Avanssion inc.'
-url = 'https://www.avanssion.com'
-
-[[params.links]]
-text = 'Twitter'
-url = 'https://www.twitter.com/florianldt'
+text = 'X'
+url = 'https://x.com/florianldt'
 
 [[params.links]]
 text = 'LinkedIn'
 url = 'https://www.linkedin.com/in/florianldt'
-
-[[params.links]]
-text = 'GitHub'
-url = 'https://www.github.com/florianldt'
-
-[[params.links]]
-text = 'Seoul iOS Meetup'
-url = 'https://www.meetup.com/seoul-ios-meetup'

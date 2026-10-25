@@ -2,7 +2,7 @@
 title: "Pirate Survivors: Cursed Seas"
 description: Pixel-art survival at sea for iPhone and iPad.
 layout: app
-weight: 1
+weight: 3
 params:
   tagline: Sail into cursed waters. Build your arsenal. Survive the swarm.
   # Set once the app is live, e.g. https://apps.apple.com/app/id6826757074
