@@ -2,7 +2,7 @@ baseURL = 'https://florianldt.com/'
 locale = 'en-us'
 title = 'florianldt'
 
-disableKinds = ['taxonomy', 'term', 'rss', 'section']
+disableKinds = ['taxonomy', 'term', 'rss']
 
 [markup.goldmark.renderer]
 unsafe = false

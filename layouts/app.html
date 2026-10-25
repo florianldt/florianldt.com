@@ -1,0 +1,38 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "head" }}{{ partial "app-theme.html" . }}{{ end }}
+
+{{ define "main" }}
+  <div class="app">
+    <header class="app-hero">
+      {{ with .Resources.Get "icon.png" }}
+        <img class="app-icon" src="{{ .RelPermalink }}" width="128" height="128" alt="">
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <p class="app-tagline">{{ .Params.tagline }}</p>
+      {{ with .Params.appStoreURL }}
+        <a class="app-cta" href="{{ . }}">Download on the App Store</a>
+      {{ else }}
+        <span class="app-cta app-cta-soon">Coming soon to the App Store</span>
+      {{ end }}
+    </header>
+
+    {{ $shots := .Params.screenshots }}
+    {{ with index $shots 0 }}{{ partial "app-screenshot.html" (dict "page" $ "shot" .) }}{{ end }}
+
+    <section class="app-intro">{{ .Content }}</section>
+
+    <section class="app-features">
+      {{ range .Params.features }}
+        <div class="app-feature">
+          <h2>{{ .title }}</h2>
+          <p>{{ .text }}</p>
+        </div>
+      {{ end }}
+    </section>
+
+    {{ range after 1 $shots }}{{ partial "app-screenshot.html" (dict "page" $ "shot" .) }}{{ end }}
+
+    {{ partial "app-footer.html" . }}
+  </div>
+{{ end }}

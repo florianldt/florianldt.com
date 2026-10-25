@@ -1,0 +1,5 @@
+{{- with .page.Resources.Get .shot.src }}
+  <figure class="app-shot">
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.shot.alt }}" loading="lazy">
+  </figure>
+{{- end }}

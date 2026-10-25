@@ -1,0 +1,9 @@
+{{- /* Context: the app section. */ -}}
+<footer class="app-footer">
+  <nav>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ with .GetPage "support" }}<a href="{{ .RelPermalink }}">Support</a>{{ end }}
+    {{ with .GetPage "privacy" }}<a href="{{ .RelPermalink }}">Privacy Policy</a>{{ end }}
+  </nav>
+  <p>© {{ now.Year }} <a href="{{ "/" | relURL }}">{{ site.Params.name }}</a></p>
+</footer>

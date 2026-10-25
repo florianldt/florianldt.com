@@ -6,6 +6,7 @@
     <h1>{{ site.Params.name }}</h1>
     <h3>{{ site.Params.role }}</h3>
     <ul>
+      <li><a href="{{ "apps/" | relURL }}">Apps</a></li>
       {{ range site.Params.links }}
         <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a></li>
       {{ end }}

@@ -1,0 +1,19 @@
+{{- /* Per-app colours and font, read from the app's front matter (params.theme). Context: the app section. */ -}}
+{{- with .Params.theme }}
+  <style>
+    {{- with $.Resources.Get .font }}
+    @font-face {
+      font-family: "App Display";
+      src: url("{{ .RelPermalink }}") format("truetype");
+      font-display: swap;
+    }
+    {{- end }}
+    .app {
+      --app-bg: {{ .background | safeCSS }};
+      --app-surface: {{ .surface | safeCSS }};
+      --app-accent: {{ .accent | safeCSS }};
+      --app-text: {{ .text | safeCSS }};
+    }
+  </style>
+  <meta name="theme-color" content="{{ .background }}">
+{{- end }}

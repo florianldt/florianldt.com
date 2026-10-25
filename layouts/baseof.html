@@ -8,6 +8,8 @@
     {{ with resources.Get "css/main.css" | minify | fingerprint }}
       <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
     {{ end }}
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ block "head" . }}{{ end }}
   </head>
   <body>
     {{ block "main" . }}{{ end }}
