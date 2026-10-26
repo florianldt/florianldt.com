@@ -16,9 +16,9 @@ params:
     text: "#f4ead2"
     font: PixelifySans.ttf
   screenshots:
-    - src: combat.jpg
+    - src: gameplay-poster.jpg
       video: gameplay.mp4
-      alt: The Swift Sloop casts off from its home port, then fights a raider fleet beside a village island
+      alt: Gameplay montage from casting off at the home port, through level 10 and level 30 battles, to outrunning the Ferryman to the lighthouse
     - src: home-port.jpg
       alt: The title screen, with the chosen ship moored at the home port's pier
     - src: blessing.jpg
