@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-_Last updated: October 25, 2026_
+_Last updated: October 26, 2026_
 
 This policy covers **Pirate Survivors: Cursed Seas** for iPhone and iPad, developed by Florian Ludot.
 
@@ -12,7 +12,7 @@ The game does not collect any personal data. It works offline, needs no account,
 
 ## Data stored on your device
 
-Your scores, survival times, levels, kill counts, run dates and sound and haptics settings are saved locally on your device so the game can show your Captain's Ledger and remember your preferences. This information is never sent to the developer or to any server operated for the game.
+Your scores, survival times, levels, kill counts, run dates, chosen ship, Endless unlock and sound and haptics settings are saved locally on your device so the game can show your Captain's Ledger and remember your preferences. This information is never sent to the developer or to any server operated for the game.
 
 Your device may include this data in backups made by iCloud or your computer. Those backups are handled by Apple or by you, not by the developer.
 

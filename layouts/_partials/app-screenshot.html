@@ -1,5 +1,12 @@
+{{- /* A screenshot, or a looping clip when the shot sets `video` (src is its poster). */ -}}
 {{- with .page.Resources.Get .shot.src }}
+  {{- $video := "" }}
+  {{- with $.shot.video }}{{ $video = $.page.Resources.Get . }}{{ end }}
   <figure class="app-shot">
+    {{- if $video }}
+    <video src="{{ $video.RelPermalink }}" poster="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" autoplay muted loop playsinline aria-label="{{ $.shot.alt }}"></video>
+    {{- else }}
     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.shot.alt }}" loading="lazy">
+    {{- end }}
   </figure>
 {{- end }}
