@@ -196,7 +196,14 @@ body:has(.app) {
     padding: 0 20px;
 }
 
-.app-shot img {
+.app-cta-note {
+    margin: 12px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.app-shot img,
+.app-shot video {
     display: block;
     width: 100%;
     height: auto;

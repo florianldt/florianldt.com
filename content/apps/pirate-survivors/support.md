@@ -10,7 +10,7 @@ TestFlight testers can also send feedback directly from TestFlight.
 
 ## How to play
 
-Tap **Set Sail**, then tap through the Captain's dialogue. Touch and drag anywhere in the game area to steer; your weapons fire automatically. Collect doubloons, and tap a blessing each time you level up.
+Choose a ship with the **<** and **>** arrows on the title screen (all five are free), then tap **Set Sail**. Your ship casts off from the home port; tap through the Captain's dialogue. Touch and drag anywhere in the game area to steer; your weapons fire automatically. Collect doubloons, and tap a blessing each time you level up.
 
 ## Game controllers
 

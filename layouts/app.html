@@ -12,6 +12,9 @@
       <p class="app-tagline">{{ .Params.tagline }}</p>
       {{ with .Params.appStoreURL }}
         <a class="app-cta" href="{{ . }}">Download on the App Store</a>
+      {{ else with .Params.testFlightURL }}
+        <a class="app-cta" href="{{ . }}">Join the beta on TestFlight</a>
+        <p class="app-cta-note">Free on iPhone and iPad. Coming soon to the App Store.</p>
       {{ else }}
         <span class="app-cta app-cta-soon">Coming soon to the App Store</span>
       {{ end }}
