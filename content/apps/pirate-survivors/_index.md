@@ -4,7 +4,7 @@ description: Pixel-art survival at sea for iPhone and iPad.
 layout: app
 weight: 3
 params:
-  tagline: Sail into cursed waters. Build your arsenal. Survive the swarm.
+  tagline: Sail into cursed waters. Bring the flames home. Survive the swarm.
   # Set once the app is live, e.g. https://apps.apple.com/app/id6826757074
   appStoreURL: ""
   # Shown instead of "Coming soon" until appStoreURL is set
@@ -18,26 +18,26 @@ params:
   screenshots:
     - src: gameplay-poster.jpg
       video: gameplay.mp4
-      alt: Gameplay montage from casting off at the home port, through level 10 and level 30 battles, to outrunning the Ferryman to the lighthouse
+      alt: Gameplay montage from casting off at the home port, through a level 35 battle and the Iron Admiral boss, to the Ferryman's arrival at level 60
     - src: home-port.jpg
-      alt: The title screen, with the chosen ship moored at the home port's pier
+      alt: The title screen, with the Swift Sloop moored at the home port's pier
     - src: blessing.jpg
       alt: Choosing a blessing after levelling up
   features:
-    - title: Pick your ship
-      text: Five free ships wait at your home port, from the nimble Swift Sloop to the armoured Geobukseon, a Korean turtle ship. Each has its own hull, speed and starting weapons.
-    - title: Build your loadout
-      text: Combine cannon volleys, orbiting cannonballs, naval mines, lashing tentacles and lightning, and evolve them into stronger forms. Pick upgrades and passives to shape every run.
-    - title: Face the cursed seas
-      text: Battle raiders, corsairs, sea creatures, ghost-ship bosses and the Kraken across animated waters and islands. Keep moving and see how long you can hold out.
+    - title: Bring the flames home
+      text: The lighthouse went dark, and five drowned captains stole its flames. Cast off in the Swift Sloop, sink them one by one, and hear what each has to say before the fight.
+    - title: Build your arsenal
+      text: Combine cannon volleys, grapeshot, orbiting cursed cannonballs, naval mines and chain lightning, and evolve them into the Explosive Cannon and the Storm Compass. Throw grappling hooks to board passing ships.
+    - title: Face the drowned captains
+      text: A boss every ten levels, in a new order each voyage, among raiders, gunships, krakens and pufferfish. Ride out the swells and keep moving.
     - title: Hunt and gamble
-      text: Race to guarded treasure before it sinks, or strike a bargain at a cursed island shrine for a bonus blessing. Both are optional.
+      text: Follow treasure maps to gold buried on distant islands, or strike a bargain at a cursed island shrine for a bonus blessing. Both are optional.
     - title: Escape the Ferryman
-      text: Reach level 50, then outrun the Ferryman's flagship to the lighthouse harbour. Escape once to unlock Endless, where the voyage never stops.
+      text: Reach level 60 and the Ferryman comes to collect. Slip through his soul-fire rings, break the three chains on his lantern and race to the blue harbor before time runs out.
     - title: Sail your way
-      text: Play with touch or a compatible controller, tune music, sound and haptics, and track every run in the Captain's Ledger, saved on your device.
+      text: Play with touch or a compatible controller, set music, sea, sound effects and menu sounds separately, and keep your best voyages in the Ledger, saved on your device.
 ---
 
-Steer a pirate ship through cursed waters while your weapons fire automatically. Collect doubloons, choose a new blessing each time you level up, and outlast the swarm.
+Steer a pirate ship through cursed waters while your weapons fire automatically. Gather soul-lights, choose a new blessing each time you level up, and outlast the swarm.
 
 Play offline on iPhone and iPad. No account, no ads, no in-app purchases.
