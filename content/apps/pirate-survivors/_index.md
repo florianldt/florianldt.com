@@ -18,7 +18,7 @@ params:
   screenshots:
     - src: gameplay-poster.jpg
       video: gameplay.mp4
-      alt: Gameplay montage from casting off at the home port, through level 10 and level 30 battles, to outrunning the Ferryman to the lighthouse
+      alt: Gameplay montage from casting off at the home port, through a level 35 battle and the Iron Admiral boss, to the Ferryman's arrival at level 60
     - src: home-port.jpg
       alt: The title screen, with the Swift Sloop moored at the home port's pier
     - src: blessing.jpg
