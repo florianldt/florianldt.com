@@ -1,5 +1,5 @@
 ---
-title: "Pirate Survivors: Cursed Seas"
+title: "Cursed Seas"
 description: Pixel-art survival at sea for iPhone and iPad.
 layout: app
 weight: 3
@@ -27,13 +27,11 @@ params:
     - title: Bring the flames home
       text: The lighthouse went dark, and five drowned captains stole its flames. Cast off in the Swift Sloop, sink them one by one, and hear what each has to say before the fight.
     - title: Build your arsenal
-      text: Combine cannon volleys, grapeshot, orbiting cursed cannonballs, naval mines and chain lightning, and evolve them into the Explosive Cannon and the Storm Compass. Throw grappling hooks to board passing ships.
+      text: Choose from eleven weapons, from cannon volleys, broadsides and a mortar to fire pots, a whirlpool, chain lightning, a cutlass and orbiting cursed flames. Level each to 8, pair it with the right passive, and open a treasure chest to evolve it.
     - title: Face the drowned captains
-      text: A boss every ten levels, in a new order each voyage, among raiders, gunships, krakens and pufferfish. Ride out the swells and keep moving.
-    - title: Hunt and gamble
-      text: Follow treasure maps to gold buried on distant islands, or strike a bargain at a cursed island shrine for a bonus blessing. Both are optional.
+      text: A boss every five minutes, in a new order each voyage, among raiders, gunships, krakens, jellyfish and sharks. Sink giant champions for their chests and ride out the swells.
     - title: Escape the Ferryman
-      text: Reach level 60 and the Ferryman comes to collect. Slip through his soul-fire rings, break the three chains on his lantern and race to the blue harbor before time runs out.
+      text: Hold out for thirty minutes and the Ferryman comes to collect. Slip through his soul-fire rings, break the three chains on his lantern and race to the blue harbor before time runs out. Then sail on in Endless.
     - title: Sail your way
       text: Play with touch or a compatible controller, set music, sea, sound effects and menu sounds separately, and keep your best voyages in the Ledger, saved on your device.
 ---

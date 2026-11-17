@@ -2,13 +2,13 @@
 title: Privacy Policy
 ---
 
-_Last updated: November 1, 2026_
+_Last updated: November 17, 2026_
 
-This policy covers **Pirate Survivors: Cursed Seas** for iPhone and iPad, developed by Florian Ludot.
+This policy covers **Cursed Seas** (formerly Pirate Survivors) for iPhone and iPad, developed by Florian Ludot.
 
 ## In short
 
-The game works offline and needs no account. It contains no ads, tracking, third-party analytics or in-app purchases. It sends nothing to the developer unless you choose to send a run report.
+The game works offline and needs no account. It contains no ads, tracking or in-app purchases. It sends anonymous gameplay statistics and crash reports to help the developer balance and fix the game, and a run report only when you choose to send one.
 
 ## Data stored on your device
 
@@ -17,6 +17,18 @@ Your Ledger scores, survival times, levels, kill counts, run dates, doubloons, a
 Your device may include this data in backups made by iCloud or your computer. Those backups are handled by Apple or by you, not by the developer.
 
 You can delete all of this data at any time by deleting the app.
+
+## Gameplay statistics and crash reports
+
+When you play, the game sends anonymous events to PostHog, an analytics service the developer uses, hosted in the United States. They describe how the game is played and help balance it:
+
+- when a run starts and ends: the mode, ship, length, level, kills, doubloons, bosses sunk and blessings taken;
+- what happens during a run: blessings offered and chosen, rerolls, bosses arriving and sinking;
+- Port purchases and the ratings you give a run;
+- the game version, your device model and iOS or iPadOS version;
+- if the game crashes, a crash report with the stack trace, sent the next time you open it.
+
+These events carry the same random player ID as run reports. They contain no name, email address, Apple Account or advertising identifier, are not linked to you, are not used for tracking or advertising, and record no screen contents. The game works without a connection; events are simply not sent while offline.
 
 ## Run reports
 
@@ -42,7 +54,7 @@ If you test a beta through TestFlight, Apple may collect diagnostics, crash repo
 
 ## Children
 
-The game does not knowingly collect personal information from anyone, including children. Run reports contain no names, contact details or account information.
+The game does not knowingly collect personal information from anyone, including children. Gameplay statistics, crash reports and run reports contain no names, contact details or account information.
 
 ## Changes
 
@@ -50,4 +62,4 @@ If the game's data practices change, this page will be updated and the date abov
 
 ## Contact
 
-Questions about this policy: [piratesurvivors@florianldt.com](mailto:piratesurvivors@florianldt.com) or [@florianldt on X (Twitter)](https://x.com/florianldt).
+Questions about this policy: [cursedseas@florianldt.com](mailto:cursedseas@florianldt.com) or [@florianldt on X (Twitter)](https://x.com/florianldt).
