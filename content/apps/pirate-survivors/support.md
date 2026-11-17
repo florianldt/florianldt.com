@@ -2,7 +2,7 @@
 title: Support
 ---
 
-Need help with **Pirate Survivors: Cursed Seas**? Email [piratesurvivors@florianldt.com](mailto:piratesurvivors@florianldt.com) or send a message to [@florianldt on X (Twitter)](https://x.com/florianldt).
+Need help with **Cursed Seas**? Email [cursedseas@florianldt.com](mailto:cursedseas@florianldt.com) or send a message to [@florianldt on X (Twitter)](https://x.com/florianldt).
 
 To help track down an issue, please include your device model, iOS or iPadOS version, the game version (shown at the bottom of the title screen), and what happened. Steps to reproduce it and a screenshot are a big help. After a run you can also tap **Send Run Report**; the run code it shows helps find your report.
 
@@ -12,7 +12,7 @@ TestFlight testers can also send feedback directly from TestFlight.
 
 Tap **Set Sail** on the title screen. Your Swift Sloop casts off from the home port; tap through the Captain's dialogue. Touch and drag anywhere in the game area to steer; your weapons fire automatically. Gather the soul-lights that sunk enemies leave behind to fill the souls meter in the top-left corner, and tap a blessing each time you level up. Tap **?** on the level-up screen for a guide to every blessing.
 
-A boss comes every ten levels. Sink all five to bring the lighthouse's flames home, then survive the Ferryman at level 60: break his three chains and sail into the blue harbor before time runs out.
+A boss comes every five minutes. Sink all five to bring the lighthouse's flames home, then survive the Ferryman after thirty minutes: break his three chains and sail into the blue harbor before time runs out. Escaping opens Endless.
 
 ## Game controllers
 
