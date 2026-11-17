@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /apps/pirate-survivors/privacy/
 title: Privacy Policy
 ---
 

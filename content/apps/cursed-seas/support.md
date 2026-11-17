@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /apps/pirate-survivors/support/
 title: Support
 ---
 
