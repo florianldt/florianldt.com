@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /apps/pirate-survivors/
 title: "Cursed Seas"
 description: Pixel-art survival at sea for iPhone and iPad.
 layout: app
