@@ -14,7 +14,7 @@ The site is then available at http://localhost:1313.
 ## Structure
 
 - `hugo.toml` — site config, including the links shown on the home page
-- `content/apps/<app>/` — one folder per app: `_index.md` is the landing page (`/apps/<app>/`), with `privacy.md` and `support.md` alongside, plus its icon, screenshots and font. Copy `cursed-seas/` to add a new app; its colours, font, screenshots and features are set in `_index.md`, setting `testFlightURL` there shows a TestFlight beta button, and `appStoreURL` replaces either with a download button. A screenshot entry with a `video` plays that MP4 on a loop, using `src` as its poster.
+- `content/apps/<app>/` — one folder per app: `_index.md` is the landing page (`/apps/<app>/`), with `privacy.md` and `support.md` alongside, plus its icon, screenshots and font. Copy `cursed-seas/` to add a new app; its colours, font, screenshots and features are set in `_index.md`, setting `testFlightURL` there shows a TestFlight beta button (with `ctaNote` to change the line under it), and `appStoreURL` replaces either with a download button. A screenshot entry with a `video` plays that MP4 on a loop, using `src` as its poster.
 - `content/privacy/` — older app privacy policies (served at `/privacy/<name>/`); keep these URLs, they're linked from the App Store
 - `layouts/` — page templates
 - `assets/css/main.css` — styles
